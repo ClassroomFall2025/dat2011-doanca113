@@ -20,3 +20,4 @@ def tinh_nguyen_lieu(dauxanh, thapcam, banhdeo):
     tinh_nguyen_lieu["duong"]= duong_lam_banh
     tinh_nguyen_lieu["dau"]= dau_lam_banh
     return tinh_nguyen_lieu
+
