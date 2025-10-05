@@ -17,7 +17,9 @@ def tinh_nguyen_lieu(dauxanh, thapcam, banhdeo):
     banhdeo = {"duong": 0.05,"dau": 0.02}
     duong_lam_banh= dauxanh["duong"] * 0.04 + thapcam["duong"] * 0.06 + banhdeo["duong"] * 0.05
     dau_lam_banh= dauxanh["dau"] * 0.07 + thapcam["dau"] * 0 + banhdeo["dau"] * 0.02
-    tinh_nguyen_lieu["duong"]= duong_lam_banh
-    tinh_nguyen_lieu["dau"]= dau_lam_banh
-    return tinh_nguyen_lieu
+    nguyen_lieu = {
+        "duong": duong_lam_banh,
+        "dau": dau_lam_banh
+    }
+    return nguyen_lieu
 
