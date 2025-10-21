@@ -23,7 +23,5 @@ class sanpham:
         self.__Giam_gia=float(input("giam gia:"))
     def xuat_thong_tin(self):
         print(f"san pham:{self.__ten_san_pham},có giá:{self.__gia}được giảm giá:{self.__Giam_gia},thue_nhap_khau:{self.thue_nhap_khau()}")
-    def __str__(self): 
-        return f"san pham:{self.__ten_san_pham},có giá:{self.__gia}được giảm giá:{self.__Giam_gia},thue_nhap_khau:{self.thue_nhap_khau()}"
-
+    
 
